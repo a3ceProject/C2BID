@@ -1,6 +1,6 @@
 C2BID
 
-In this repository, you can find four scripts (features_extract.py, clustering_process.py, history_path.py, prob_model.py, and RRCF.py). It also contains a folder with example input and output files.
+In this repository, you can find four scripts (features_extract.py, clustering_process.py, history_path.py, prob_model.py, and RRCF.py). We also provide examples of input and output data, available at https://drive.google.com/drive/folders/1OW_IWoQJAfGClLMlgaWLHJ_LDSDy0BER?usp=sharing
 
 Scripts prerequisites:
 
