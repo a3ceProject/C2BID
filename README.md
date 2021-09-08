@@ -54,7 +54,7 @@ The clustering_process.py script is used to perform clustering using as input th
 Linux/MAC OS:
 
 	-python3 clustering_process.py [FILE PATH] 
-	-python3 clustering_process.py --fast day1/10.0min
+	-python3 clustering_process.py --fast day1/10.0min/*.csv
 
 
 ################## history_path.py ##################
