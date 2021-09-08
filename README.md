@@ -103,8 +103,9 @@ Note:
 	1) Parameters may be omitted, provided that the following are also omitted
 	2) Change Victims in Line 21 and 528
 	3) change White List in Line 34
-	4) Change Days in Line 504 and 505
-	5) for more significant changes, go to the time subdivisions (Line 287) function for relative height (Line 362)
+	4) Change Days in Line 504 (multi days) and 505 (single day)
+	5) Results presentation for multi days scenario are available between line 507 and 531
+	6) for more significant changes, go to the time subdivisions (Line 287) function for relative height (Line 362)
 
 Linux/MAC OS:
 
