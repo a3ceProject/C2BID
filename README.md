@@ -109,7 +109,7 @@ Note:
 Linux/MAC OS:
 
 	-python3 prob_model.py [FILE PATH] [Graph] [Filter Sensitivity] [Cluster Sensitivity] [TimeWindows]   
-	-python3 prob_model.py day1/10.0min/results/Int/history_path_rel/Int_1_10.0_0.5_cluster_history_path.csv
+	-python3 prob_model.py day10/10.0min/results/Int/history_path_rel/Int_10_10.0_0.5_cluster_history_path.csv
 
 To evaluate the approaches, some metrics were defined:
 
