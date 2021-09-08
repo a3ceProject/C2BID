@@ -49,7 +49,7 @@ The clustering_process.py script is used to perform clustering using as input th
     
    
     --help: to get help 
-    --fast: fast mode, only produces the CSV files with cluster by an entity, you can read more than one file 
+    --fast: fast mode, only produces the CSV files where there are outliers (clusters with just one entity), you can read more than one file 
 
 Linux/MAC OS:
 
