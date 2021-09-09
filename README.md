@@ -137,6 +137,35 @@ Output Example:
 Adaptation from https://klabum.github.io/rrcf/, used in prob_model.py
 
 
+###### Full example with provided dataset #######
+
+Linux/MAC OS:
+
+	% 1. Feature Extraction
+		python3 features_extract.py new_friday-02-03-18.csv 10,30,120 3 100 
+	
+	% 2. Clustering
+		python3 clustering_process.py --fast day10/10.0min
+		python3 clustering_process.py --fast day10/30.0min
+		python3 clustering_process.py --fast day10/120.0min
+	
+	% 3. History path
+		python3 history_path.py day10/10.0min/ 0.5 R
+		python3 history_path.py day10/30.0min/ 0.5 R
+		python3 history_path.py day10/120.0min/ 0.5 R
+	
+	% 4. Prob Model 
+	
+  	  	python3 prob_model.py day10/10.0min/results/Int/history_path_rel/Int_10_10.0_0.5_cluster_history_path.csv
+  	  	python3 prob_model.py day10/30.0min/results/Int/history_path_rel/Int_10_30.0_0.5_cluster_history_path.csv
+  	  	python3 prob_model.py day10/120.0min/results/Int/history_path_rel/Int_10_120.0_0.5_cluster_history_path.csv
+  	  	
+		python3 prob_model.py day10/120.0min/results/Int/history_path_rel/Int_10_120.0_0.5_cluster_history_path.csv T  % with graphic
+	
+		% example with just 10min and 30 min time-windows:
+  	  	python3 prob_model.py day10/120.0min/results/Int/history_path_rel/Int_10_120.0_0.5_cluster_history_path.csv F 1 99.7 10,30 
+
+
 
 # C2BID
 T. Fernandes, L. Dias, and M. Correia, “C2BID: Cluster Change-Based Intrusion Detection”, in Proceedings of the 19th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (IEEE TrustCom 2020), 2020 
