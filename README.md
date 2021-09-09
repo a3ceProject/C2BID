@@ -10,7 +10,7 @@ Numpy (https://numpy.org)
 Sklearn (https://scikit-learn.org/stable/index.html)
 You will also need permission to create folders in your working directory.
 
-################## featureS_extract.py ##################
+################## features_extract.py ##################
 
 The features_extract.py script is used to extract the features from a file CSV file with traffic information (flows). This script receives the CSV file as input and returns CSV files, one per time window, with the features extracted and organized by entities (IP addresses).
 
