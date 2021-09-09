@@ -25,7 +25,7 @@ The features_extract.py script is used to extract the features from a file CSV f
 
 NOTE: 
 	1) To add a new method, you must create a new function an add it in Line 87
-	2) File name,  days, and dates to be considered and must use the port (src and dst) can be updated in Line 19
+	2) File name,  days, dates and most used port (src and dst) can be updated in Line 19
 	3) If you specify the [method], you must also specify [TimeWindows].
 
 Usage example (from the command line):
@@ -155,7 +155,8 @@ Linux/MAC OS:
 		python3 history_path.py day1/120.0min/ 0.5 R
 	
 	% 4. Prob Model 
-	
+		
+		[any line produces the same results]
   	  	python3 prob_model.py day1/10.0min/results/Int/history_path_rel/Int_10_10.0_0.5_cluster_history_path.csv
   	  	python3 prob_model.py day1/30.0min/results/Int/history_path_rel/Int_10_30.0_0.5_cluster_history_path.csv
   	  	python3 prob_model.py day1/120.0min/results/Int/history_path_rel/Int_10_120.0_0.5_cluster_history_path.csv
