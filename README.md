@@ -137,7 +137,7 @@ Output Example:
 Adaptation from https://klabum.github.io/rrcf/, used in prob_model.py
 
 
-###### Full example with provided dataset #######
+######_Full example with provided dataset_#######
 
 Linux/MAC OS:
 
