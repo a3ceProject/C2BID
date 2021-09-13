@@ -112,21 +112,6 @@ Linux/MAC OS:
 	-python3 prob_model.py [FILE PATH] [Graph] [Filter Sensitivity] [Cluster Sensitivity] [TimeWindows]   
 	-python3 prob_model.py day1/10.0min/results/Int/history_path_rel/Int_10_10.0_0.5_cluster_history_path.csv
 
-To evaluate the approaches, some metrics were defined:
-
-	- True Positives (TP) -  entities correctly classified as outliers
-
-	- False Positives (FP) - entities wrongly classified as outliers
-
-	- True Negatives (TN) - entities correctly classified as 'normal'
-
-	- False Negatives (FN) - entities wrongly classified as 'normal'
-
-	- Precision (PREC)- TP/(TP+FP)
-
-	- Recall (REC) - TP/(TP+FN)
-
-	- F1 - 2*(Precision*Recall)/(Precision+Recall)
 
 Output Example:
 
